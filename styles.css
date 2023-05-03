@@ -1,0 +1,52 @@
+* {
+  background-color:  rgb(245, 245, 245);
+}
+
+.titleBlock{
+  height: 200px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.sketch {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.gridBlock{
+  display: flex;
+  background-color: rgb(245, 245, 245);
+  justify-content: center;
+
+}
+
+#grid2 {
+  box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  width: 960px;
+  height: 960px;
+
+}
+
+.verticalUnitCSS{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+.box2CSS {
+  box-sizing: border-box;
+  flex: auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(176, 176, 176);
+  transition: background-color 3s ease-in-out;
+}
+
+.box2CSSdrawn {
+  background-color: rgb(87, 87, 87);
+  transition-duration: 200ms;
+}
+
